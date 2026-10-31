@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kape Right Neow | Student Coffee & Bakes</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION HEADER -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="Kape Right Neow Logo" />
+      <span class="brand-name">Kape Right Neow</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#promo">Promo</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#join">Join Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero-section">
+    <div class="hero-text">
+      <span class="tagline">Limited Time Launch Promo</span>
+      <h1>Your Daily Student Brew, Perfected.</h1>
+      <p>Student-budget coffee, matcha lattes, and fresh cookies to power your daily hustle.</p>
+      <a href="#join" class="btn">Claim 20% Off</a>
+    </div>
+    <div class="hero-image">
+      <img src="brewing.jpg" alt="Barista brewing pour-over coffee" />
+    </div>
+  </section>
+
+  <!-- BRAND STORY SECTION -->
+  <section id="about" class="section dark-bg">
+    <div class="story-content">
+      <div class="story-img">
+        <img src="brewing.jpg" alt="Kape Right Neow Coffee Setup" />
+      </div>
+      <div class="story-text">
+        <h2>Our Brand Story</h2>
+        <p><strong>Quality Drinks, Student Prices</strong></p>
+        <p>Kape Right Neow was created to bring high-quality beverages to students without high prices. We focus on simple, well-crafted coffee, matcha lattes, and freshly baked cookies served in a warm, welcoming space.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section id="menu" class="section">
+    <div class="section-title-wrap">
+      <h2>Featured Student Favorites</h2>
+      <p>Simple, delicious menu items priced for your daily budget.</p>
+    </div>
+    <div class="product-grid">
+      
+      <div class="product-card">
+        <img src="spanish.jpg" alt="Iced Spanish Latte" />
+        <h3>Iced Spanish Latte</h3>
+        <p>Rich espresso blended with sweet creamy milk over ice.</p>
+        <div class="price">₱110</div>
+      </div>
+
+      <div class="product-card">
+        <img src="matcha.jpg" alt="Iced Matcha Latte" />
+        <h3>Iced Matcha Latte</h3>
+        <p>Premium ceremonial grade green tea layered with fresh milk.</p>
+        <div class="price">₱120</div>
+      </div>
+
+      <div class="product-card">
+        <img src="cookies.jpg" alt="Chocolate Chip Cookie" />
+        <h3>Chocolate Chip Cookie</h3>
+        <p>Freshly baked soft-baked cookie with rich chocolate chunks.</p>
+        <div class="price">₱80</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COUNTDOWN TIMER SECTION -->
+  <section id="promo" class="section dark-bg timer-section">
+    <div class="section-title-wrap">
+      <h2>Soft Opening Discount</h2>
+      <p id="timer-message">Claim Your 20% Discount Before Promo Ends:</p>
+    </div>
+
+    <div class="timer-box">
+      <div class="time-card">
+        <span id="days">00</span>
+        <p>Days</p>
+      </div>
+      <div class="time-card">
+        <span id="hours">00</span>
+        <p>Hours</p>
+      </div>
+      <div class="time-card">
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+      </div>
+      <div class="time-card">
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FREQUENTLY ASKED QUESTIONS (FAQ) -->
+  <section id="faq" class="section">
+    <div class="section-title-wrap">
+      <h2>Frequently Asked Questions</h2>
+      <p>Everything you need to know about visiting Kape Right Neow.</p>
+    </div>
+
+    <div class="faq-container">
+      <div class="faq-content">
+        <div style="margin-bottom: 20px;">
+          <h3 style="margin-bottom: 6px;">⏰ What are your operating hours?</h3>
+          <p>We are open daily from <strong>3:00 PM to 12:00 AM (Midnight)</strong> — perfect for your afternoon study sessions and late-night cravings!</p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+          <h3 style="margin-bottom: 6px;">🐾 Are pets allowed inside?</h3>
+          <p>Yes, of course! We are 100% pet-friendly. Feel free to bring your fur babies along while you study or relax.</p>
+        </div>
+
+        <div>
+          <h3 style="margin-bottom: 6px;">🎓 How do I avail of student discounts?</h3>
+          <p>Simply present your valid Student ID at the counter or claim your 20% launch voucher code using our form below.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEAD FORM SECTION -->
+  <section id="join" class="section dark-bg">
+    <div class="section-title-wrap">
+      <h2>Get Your 20% Discount Voucher</h2>
+      <p>Sign up now and we'll send your launch promo voucher directly to your inbox!</p>
+    </div>
+
+    <form id="discount-form" class="lead-form">
+      <div class="form-group">
+        <label for="student-name">Full Name</label>
+        <input type="text" id="student-name" placeholder="Juan Dela Cruz" />
+        <span id="name-error" class="error-msg"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="student-email">Email Address</label>
+        <input type="email" id="student-email" placeholder="student@university.edu.ph" />
+        <span id="email-error" class="error-msg"></span>
+      </div>
+
+      <div class="form-group checkbox-group">
+        <input type="checkbox" id="terms-check" />
+        <label for="terms-check">I am a currently enrolled student.</label>
+      </div>
+      <span id="terms-error" class="error-msg"></span>
+
+      <button type="submit" class="btn" style="width: 100%; margin-top: 20px;">Get My Discount Voucher</button>
+      
+      <div id="success-message" class="success-message" style="display: none;"></div>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Kape Right Neow. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
